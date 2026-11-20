@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: aquasustain-web
+    runtime: static
+    buildCommand: cd web && npm install && npm run build
+    staticPublishPath: ./web/dist
+    pullRequestPreviewsEnabled: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
