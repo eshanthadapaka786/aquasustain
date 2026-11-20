@@ -1,0 +1,27 @@
+{
+  "name": "aquasustain-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AquaSustain — Smart Aquaculture. Better Pond Management. Complete Frontend Platform for Web and Android.",
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "web:dev": "npm --prefix web run dev",
+    "web:build": "npm --prefix web run build",
+    "web:preview": "npm --prefix web run preview",
+    "mobile:start": "npm --prefix mobile start",
+    "build": "npm --prefix web run build"
+  },
+  "keywords": [
+    "aquaculture",
+    "shrimp-farming",
+    "pond-management",
+    "water-quality",
+    "react",
+    "react-native",
+    "expo",
+    "vite",
+    "typescript"
+  ],
+  "author": "AquaSustain Team",
+  "license": "UNLICENSED"
+}

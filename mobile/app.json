@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "AquaSustain",
+    "slug": "aquasustain",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#123B4A"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#123B4A"
+      },
+      "package": "in.aquasustain.farmer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
